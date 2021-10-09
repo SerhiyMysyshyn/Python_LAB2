@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Реєстрація</title>
+</head>
+<body>
+    <form action="/cgi-bin/myform.py">
+        <H1>Реєстрація</H1>
+        <fieldset> <legend><b>Введіть основні дані:</b></legend>
+            <input type="text" name="firstName" placeholder="Введіть ім'я"><br><br>
+            <input type="text" name="lastName" placeholder="Введіть прізвище"><br>
+        </fieldset>
+
+        <br><fieldset> <legend><b>Виберіть стать:</b></legend>
+        <label><input type="radio" name="radioB" value="man"> Чоловік</label><br>
+        <label><input type="radio" name="radioB" value="woman"> Жінка</label>
+        </fieldset>
+        <br>
+        <fieldset> <legend><b>Виберіть професію:</b></legend>
+            <label><input type="checkbox" name="cgBox" value="Програміст"> Програміст</label><br>
+            <label><input type="checkbox" name="cgBox" value="Лікар"> Лікар</label><br>
+            <label><input type="checkbox" name="cgBox" value="Економіст"> Економіст</label><br>
+            <label><input type="checkbox" name="cgBox" value="Юрист"> Юрист</label>
+        </fieldset>
+
+        <br><input type="submit">
+    </form>
+</body>
+</html>
